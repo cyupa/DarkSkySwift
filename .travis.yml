@@ -1,7 +1,7 @@
 language: objective-c
+os: osx
 osx_image: xcode8.3
 xcode_project: DarkSkySwift.xcodeproj
-xcode_workspace: DarkSkySwift.xcworkspace
 xcode_scheme: DarkSkySwift-iOS
 xcode_sdk: iphonesimulator9.3
 env:
@@ -15,6 +15,15 @@ install:
   - bundle install --without=documentation --path ../travis_bundle_dir
 before_script:
   - carthage bootstrap
+  - bundle exec danger
+script:
+  xcodebuild | xcpretty -f `xcpretty-travis-formatter`
+  travis_retry xcodebuild test \
+      -project DarkSkySwift.xcodeproj \
+      -scheme "$scheme" \
+      -destination "platform=$platform" \
+    | /tmp/xcpretty/bin/xcpretty -c
+
 before_deploy:
   - carthage build --no-skip-current
   - carthage archive $FRAMEWORK_NAME

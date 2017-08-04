@@ -1,6 +1,5 @@
 coverage_service: cobertura_xml
 xcodeproj: DarkSkySwift.xcodeproj
-workspace: DarkSkySwift.xcworkspace
 scheme: DarkSkySwift-iOS
 configuration: Release
 source_directory: Sources
