@@ -1,13 +1,13 @@
 ## DarkSkySwift
 
 [![Platforms](https://img.shields.io/cocoapods/p/DarkSkySwift.svg)](https://cocoapods.org/pods/DarkSkySwift)
-[![License](https://img.shields.io/cocoapods/l/DarkSkySwift.svg)](https://raw.githubusercontent.com/Applicodo/DarkSkySwift/master/LICENSE)
+[![License](https://img.shields.io/cocoapods/l/DarkSkySwift.svg)](https://raw.githubusercontent.com/cyupa/DarkSkySwift/master/LICENSE)
 
 [![Swift Package Manager](https://img.shields.io/badge/Swift%20Package%20Manager-compatible-brightgreen.svg)](https://github.com/apple/swift-package-manager)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/DarkSkySwift.svg)](https://cocoapods.org/pods/DarkSkySwift)
 
-[![Travis](https://img.shields.io/travis/Applicodo/DarkSkySwift/master.svg)](https://travis-ci.org/Applicodo/DarkSkySwift/branches)
+[![Travis](https://img.shields.io/travis/cyupa/DarkSkySwift/master.svg)](https://travis-ci.org/cyupa/DarkSkySwift/branches)
 [![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/Framework)
 
 DarkSky API Swift Framework
@@ -76,7 +76,7 @@ import PackageDescription
 let package = Package(
     name: "HelloDarkSkySwift",
     dependencies: [
-        .Package(url: "https://github.com/Applicodo/DarkSkySwift.git", "0.0.1")
+        .Package(url: "https://github.com/cyupa/DarkSkySwift.git", "0.0.1")
     ]
 )
 ```
@@ -96,7 +96,7 @@ $ git init
 - Add DarkSkySwift as a git [submodule](http://git-scm.com/docs/git-submodule) by running the following command:
 
 ```bash
-$ git submodule add https://github.com/Applicodo/DarkSkySwift.git
+$ git submodule add https://github.com/cyupa/DarkSkySwift.git
 $ git submodule update --init --recursive
 ```
 
@@ -120,7 +120,7 @@ $ git submodule update --init --recursive
 
 #### Embeded Binaries
 
-- Download the latest release from https://github.com/Applicodo/DarkSkySwift/releases
+- Download the latest release from https://github.com/cyupa/DarkSkySwift/releases
 - Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
 - In the tab bar at the top of that window, open the "General" panel.
 - Click on the `+` button under the "Embedded Binaries" section.
@@ -131,4 +131,4 @@ $ git submodule update --init --recursive
 
 ## License
 
-DarkSkySwift is released under the MIT license. See [LICENSE](https://github.com/Applicodo/DarkSkySwift/blob/master/LICENSE) for details.
+DarkSkySwift is released under the MIT license. See [LICENSE](https://github.com/cyupa/DarkSkySwift/blob/master/LICENSE) for details.

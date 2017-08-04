@@ -1,0 +1,23 @@
+language: objective-c
+osx_image: xcode8.3
+xcode_project: DarkSkySwift.xcodeproj
+xcode_workspace: DarkSkySwift.xcworkspace
+xcode_scheme: DarkSkySwift-iOS
+xcode_sdk: iphonesimulator9.3
+env:
+  global:
+    - FRAMEWORK_NAME=DarkSkySwift
+before_install:
+  - rvm use $RVM_RUBY_VERSION
+  - brew update
+  - brew outdated carthage || brew upgrade carthage
+install:
+  - bundle install --without=documentation --path ../travis_bundle_dir
+before_script:
+  - carthage bootstrap
+before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME
+after_success:
+    - slather
+    - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
