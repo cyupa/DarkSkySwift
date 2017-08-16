@@ -12,6 +12,12 @@
 
 DarkSky API Swift Framework
 
+This is my first atempt at writing a Swift framework. I decided to go with the DarkSky API for this experiment. Please treat it as an experiment rather than an production-ready framework.
+The DarkSky API is build on top of a more generic networking API that I intend to extend in the future, **at this point it  lacks a lot of support for things such as**:
+⋅⋅* Multipart requests
+⋅⋅* Custom HTTP body data
+⋅⋅* Caching
+
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)

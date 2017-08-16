@@ -23,6 +23,34 @@
 		35CA2AC91E12927100147290 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2AAB1E12920400147290 /* Quick.framework */; };
 		35CA2AD21E12928C00147290 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2A9B1E12920400147290 /* Nimble.framework */; };
 		35CA2AD31E12928C00147290 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2ABB1E12920400147290 /* Quick.framework */; };
+		D64E62761F39F0AF007E7B14 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
+		D65C5A111F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
+		D65C5A121F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
+		D65C5A131F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
+		D65C5A141F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
+		D6812B331F3C5882007DEB07 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
+		D6812B421F3C5883007DEB07 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
+		D6812B431F3C5883007DEB07 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
+		D6A2640E1F4071F9002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
+		D6A2641F1F41D616002B0B79 /* DarkSkyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */; };
+		D6A264201F41D619002B0B79 /* DarkSkyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */; };
+		D6A264211F41D61A002B0B79 /* DarkSkyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */; };
+		D6A264221F41D61B002B0B79 /* DarkSkyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */; };
+		D6A264241F41E048002B0B79 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A264231F41E048002B0B79 /* Forecast.swift */; };
+		D6A264251F41E048002B0B79 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A264231F41E048002B0B79 /* Forecast.swift */; };
+		D6A264261F41E048002B0B79 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A264231F41E048002B0B79 /* Forecast.swift */; };
+		D6A264271F41E048002B0B79 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A264231F41E048002B0B79 /* Forecast.swift */; };
+		D6A2642A1F41FD6E002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
+		D6A264391F41FD6E002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
+		D6A2643A1F41FD6F002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
+		D6FC910E1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
+		D6FC910F1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
+		D6FC91101F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
+		D6FC91111F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
+		D6FC91201F371A6A005D4F6C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC911F1F371A6A005D4F6C /* Response.swift */; };
+		D6FC91211F371A6A005D4F6C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC911F1F371A6A005D4F6C /* Response.swift */; };
+		D6FC91221F371A6A005D4F6C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC911F1F371A6A005D4F6C /* Response.swift */; };
+		D6FC91231F371A6A005D4F6C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC911F1F371A6A005D4F6C /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -258,6 +286,13 @@
 		35CD65161E60192300AF060B /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
 		35CD65171E60192300AF060B /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		35CD65181E60192300AF060B /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Requests.swift"; sourceTree = "<group>"; };
+		D65C5A101F37851400D028B8 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D6A2640D1F4071F9002B0B79 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyClient.swift; sourceTree = "<group>"; };
+		D6A264231F41E048002B0B79 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		D6FC910D1F371A4D005D4F6C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D6FC911F1F371A6A005D4F6C /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,6 +385,7 @@
 		3549BB161DA3890B00C63030 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				D6A2641D1F41D600002B0B79 /* DarkSkyClient */,
 				3549BB5C1DA38AA500C63030 /* Core */,
 				3549BB541DA38A4000C63030 /* Supporting Files */,
 			);
@@ -387,6 +423,11 @@
 		3549BB5C1DA38AA500C63030 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				D6FC910D1F371A4D005D4F6C /* Request.swift */,
+				D6FC911F1F371A6A005D4F6C /* Response.swift */,
+				D65C5A101F37851400D028B8 /* APIClient.swift */,
+				D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */,
+				D6A2640D1F4071F9002B0B79 /* Result.swift */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -527,6 +568,15 @@
 				35CD65181E60192300AF060B /* watchOS-StaticLibrary.xcconfig */,
 			);
 			path = watchOS;
+			sourceTree = "<group>";
+		};
+		D6A2641D1F41D600002B0B79 /* DarkSkyClient */ = {
+			isa = PBXGroup;
+			children = (
+				D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */,
+				D6A264231F41E048002B0B79 /* Forecast.swift */,
+			);
+			name = DarkSkyClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -707,27 +757,31 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Applicodo";
+				ORGANIZATIONNAME = Applicodo;
 				TargetAttributes = {
 					3549BB201DA389CD00C63030 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB2D1DA389DB00C63030 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB3A1DA389E800C63030 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB471DA389F300C63030 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB601DA38ADB00C63030 = {
 						CreatedOnToolsVersion = 8.0;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					3549BB6F1DA38AEF00C63030 = {
@@ -961,6 +1015,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6FC91201F371A6A005D4F6C /* Response.swift in Sources */,
+				D6A2640E1F4071F9002B0B79 /* Result.swift in Sources */,
+				D6A264241F41E048002B0B79 /* Forecast.swift in Sources */,
+				D6FC910E1F371A4D005D4F6C /* Request.swift in Sources */,
+				D65C5A111F37851400D028B8 /* APIClient.swift in Sources */,
+				D6A2641F1F41D616002B0B79 /* DarkSkyClient.swift in Sources */,
+				D64E62761F39F0AF007E7B14 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -968,6 +1029,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A264221F41D61B002B0B79 /* DarkSkyClient.swift in Sources */,
+				D6FC91231F371A6A005D4F6C /* Response.swift in Sources */,
+				D6FC91111F371A4D005D4F6C /* Request.swift in Sources */,
+				D65C5A141F37851400D028B8 /* APIClient.swift in Sources */,
+				D6A2643A1F41FD6F002B0B79 /* Result.swift in Sources */,
+				D6A264271F41E048002B0B79 /* Forecast.swift in Sources */,
+				D6812B431F3C5883007DEB07 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,6 +1043,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A264201F41D619002B0B79 /* DarkSkyClient.swift in Sources */,
+				D6FC91211F371A6A005D4F6C /* Response.swift in Sources */,
+				D6FC910F1F371A4D005D4F6C /* Request.swift in Sources */,
+				D65C5A121F37851400D028B8 /* APIClient.swift in Sources */,
+				D6A2642A1F41FD6E002B0B79 /* Result.swift in Sources */,
+				D6A264251F41E048002B0B79 /* Forecast.swift in Sources */,
+				D6812B331F3C5882007DEB07 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -982,6 +1057,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A264211F41D61A002B0B79 /* DarkSkyClient.swift in Sources */,
+				D6FC91221F371A6A005D4F6C /* Response.swift in Sources */,
+				D6FC91101F371A4D005D4F6C /* Request.swift in Sources */,
+				D65C5A131F37851400D028B8 /* APIClient.swift in Sources */,
+				D6A264391F41FD6E002B0B79 /* Result.swift in Sources */,
+				D6A264261F41E048002B0B79 /* Forecast.swift in Sources */,
+				D6812B421F3C5883007DEB07 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1167,6 +1249,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65061E60192300AF060B /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1181,10 +1264,12 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1192,6 +1277,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65061E60192300AF060B /* iOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1206,10 +1292,11 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1218,6 +1305,7 @@
 			baseConfigurationReference = 35CD65171E60192300AF060B /* watchOS-Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1226,10 +1314,11 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
@@ -1241,6 +1330,7 @@
 			baseConfigurationReference = 35CD65171E60192300AF060B /* watchOS-Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1249,7 +1339,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1263,6 +1353,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD650C1E60192300AF060B /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1274,10 +1365,11 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1286,6 +1378,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD650C1E60192300AF060B /* Mac-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -1297,7 +1390,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -1309,6 +1402,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65121E60192300AF060B /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1317,10 +1411,11 @@
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
@@ -1331,6 +1426,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65121E60192300AF060B /* tvOS-Framework.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -1339,7 +1435,7 @@
 				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwift";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwift;
 				PRODUCT_NAME = DarkSkySwift;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -1353,6 +1449,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65041E60192300AF060B /* iOS-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1360,10 +1457,11 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1371,6 +1469,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65041E60192300AF060B /* iOS-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1378,9 +1477,10 @@
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1388,6 +1488,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65101E60192300AF060B /* tvOS-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1395,7 +1496,7 @@
 				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1408,6 +1509,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65101E60192300AF060B /* tvOS-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1415,7 +1517,7 @@
 				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				SWIFT_VERSION = 3.0;
@@ -1427,6 +1529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65091E60192300AF060B /* Mac-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1437,7 +1540,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1449,6 +1552,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 35CD65091E60192300AF060B /* Mac-Application.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1459,7 +1563,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.applicodo.DarkSkySwift.DarkSkySwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.applicodo.DarkSkySwift.DarkSkySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 3.0;
