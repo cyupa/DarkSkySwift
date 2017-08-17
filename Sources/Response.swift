@@ -73,7 +73,7 @@ public class FailureResponse: Response {
 
 /// JSON Reponse class
 public class JSONResponse: Response {
-    private let jsonData: Data?
+    public let jsonData: Data?
 
 
     /// Returns a JSON Dictionary from a `Response` object.

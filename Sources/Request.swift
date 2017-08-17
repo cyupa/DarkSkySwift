@@ -219,11 +219,13 @@ open class Request {
             case .urlFormEncoded:
                 // If the parameters are URL form encoded, they are added to the URL.
                 if let paramsDict = parameters as? [String: Any] {
+                    var queryItems = [URLQueryItem]()
                     for (key, value) in paramsDict {
                         let stringValue = String(describing: value)
                         let queryItem = URLQueryItem(name: key, value: stringValue)
-                        components.queryItems?.append(queryItem)
+                        queryItems.append(queryItem)
                     }
+                    components.queryItems = queryItems
                 } else {
                     throw NSError(domain: APIClient.errorDomainName, code: 0, userInfo: [NSLocalizedDescriptionKey : "Cannot convert parameters \(String(describing: self.parameters))"])
                 }

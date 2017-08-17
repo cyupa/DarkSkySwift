@@ -11,10 +11,13 @@ let apiClient = DarkSkyClient(with: token)
 
 let location = (47.156944, 27.590278)
 
-apiClient.getForecastFor(location: location) { (forecast, response, error) in
-    print(forecast)
-    print(response)
-    print(error)
-    PlaygroundPage.current.finishExecution()
+if !token.isEmpty {
+    apiClient.getForecastFor(location: location) { (forecast, error) in
+        print(forecast ?? "No forecast")
+        if let requestError = error {
+            print(requestError)
+        }
+        PlaygroundPage.current.finishExecution()
+    }
 }
 
