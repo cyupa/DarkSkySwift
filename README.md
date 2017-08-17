@@ -1,5 +1,5 @@
 ## DarkSkySwift
-
+# DarkSky API Swift Framework
 
 [![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)](https://swift.org)
 [![Platforms](https://img.shields.io/cocoapods/p/DarkSkySwift.svg)](https://cocoapods.org/pods/DarkSkySwift)
@@ -10,8 +10,6 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/DarkSkySwift.svg)](https://cocoapods.org/pods/DarkSkySwift)
 
 [![Travis](https://img.shields.io/travis/cyupa/DarkSkySwift/master.svg)](https://travis-ci.org/cyupa/DarkSkySwift/branches)
-
-DarkSky API Swift Framework
 
 This is my first attempt at writing a Swift framework. I decided to go with the DarkSky API for this experiment and Swift 4's brand new Codable protocol.
 Please treat it as an experiment rather than an production-ready framework.
