@@ -1,5 +1,7 @@
 ## DarkSkySwift
 
+
+[![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)](https://swift.org)
 [![Platforms](https://img.shields.io/cocoapods/p/DarkSkySwift.svg)](https://cocoapods.org/pods/DarkSkySwift)
 [![License](https://img.shields.io/cocoapods/l/DarkSkySwift.svg)](https://raw.githubusercontent.com/cyupa/DarkSkySwift/master/LICENSE)
 
@@ -8,15 +10,16 @@
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/DarkSkySwift.svg)](https://cocoapods.org/pods/DarkSkySwift)
 
 [![Travis](https://img.shields.io/travis/cyupa/DarkSkySwift/master.svg)](https://travis-ci.org/cyupa/DarkSkySwift/branches)
-[![JetpackSwift](https://img.shields.io/badge/JetpackSwift-framework-red.svg)](http://github.com/JetpackSwift/Framework)
 
 DarkSky API Swift Framework
 
-This is my first atempt at writing a Swift framework. I decided to go with the DarkSky API for this experiment. Please treat it as an experiment rather than an production-ready framework.
-The DarkSky API is build on top of a more generic networking API that I intend to extend in the future, **at this point it  lacks a lot of support for things such as**:
-⋅⋅* Multipart requests
-⋅⋅* Custom HTTP body data
-⋅⋅* Caching
+This is my first attempt at writing a Swift framework. I decided to go with the DarkSky API for this experiment and Swift 4's brand new Codable protocol.
+Please treat it as an experiment rather than an production-ready framework.
+
+The DarkSky API is build on top of a more generic networking API that I intend to extend in the future, **at this point it lacks a lot of support for things such as**:
+- Multipart requests
+- Custom HTTP body data
+- Caching
 
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -26,7 +29,7 @@ The DarkSky API is build on top of a more generic networking API that I intend t
 ## Requirements
 
 - iOS 8.0+ / Mac OS X 10.10+ / tvOS 9.0+ / watchOS 2.0+
-- Xcode 8.0+
+- Xcode 9.0+
 
 ## Installation
 

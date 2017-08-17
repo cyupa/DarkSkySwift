@@ -28,6 +28,22 @@
 		D65C5A121F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
 		D65C5A131F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
 		D65C5A141F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
+		D6619B141F459B30002CC06E /* ForecastDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B131F459B30002CC06E /* ForecastDataPoint.swift */; };
+		D6619B231F459B41002CC06E /* ForecastDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B131F459B30002CC06E /* ForecastDataPoint.swift */; };
+		D6619B241F459B41002CC06E /* ForecastDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B131F459B30002CC06E /* ForecastDataPoint.swift */; };
+		D6619B251F459B42002CC06E /* ForecastDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B131F459B30002CC06E /* ForecastDataPoint.swift */; };
+		D6619B271F459BB3002CC06E /* ForecastAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B261F459BB3002CC06E /* ForecastAlert.swift */; };
+		D6619B281F459BB3002CC06E /* ForecastAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B261F459BB3002CC06E /* ForecastAlert.swift */; };
+		D6619B291F459BB3002CC06E /* ForecastAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B261F459BB3002CC06E /* ForecastAlert.swift */; };
+		D6619B2A1F459BB3002CC06E /* ForecastAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B261F459BB3002CC06E /* ForecastAlert.swift */; };
+		D6619B2C1F459BE2002CC06E /* ForecastFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B2B1F459BE2002CC06E /* ForecastFlag.swift */; };
+		D6619B2D1F459BE2002CC06E /* ForecastFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B2B1F459BE2002CC06E /* ForecastFlag.swift */; };
+		D6619B2E1F459BE2002CC06E /* ForecastFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B2B1F459BE2002CC06E /* ForecastFlag.swift */; };
+		D6619B2F1F459BE2002CC06E /* ForecastFlag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B2B1F459BE2002CC06E /* ForecastFlag.swift */; };
+		D6619B311F459F63002CC06E /* ForecastDataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B301F459F63002CC06E /* ForecastDataBlock.swift */; };
+		D6619B321F459F63002CC06E /* ForecastDataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B301F459F63002CC06E /* ForecastDataBlock.swift */; };
+		D6619B331F459F63002CC06E /* ForecastDataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B301F459F63002CC06E /* ForecastDataBlock.swift */; };
+		D6619B341F459F63002CC06E /* ForecastDataBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6619B301F459F63002CC06E /* ForecastDataBlock.swift */; };
 		D6812B331F3C5882007DEB07 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
 		D6812B421F3C5883007DEB07 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
 		D6812B431F3C5883007DEB07 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
@@ -288,6 +304,10 @@
 		35CD65181E60192300AF060B /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Requests.swift"; sourceTree = "<group>"; };
 		D65C5A101F37851400D028B8 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D6619B131F459B30002CC06E /* ForecastDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDataPoint.swift; sourceTree = "<group>"; };
+		D6619B261F459BB3002CC06E /* ForecastAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastAlert.swift; sourceTree = "<group>"; };
+		D6619B2B1F459BE2002CC06E /* ForecastFlag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastFlag.swift; sourceTree = "<group>"; };
+		D6619B301F459F63002CC06E /* ForecastDataBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDataBlock.swift; sourceTree = "<group>"; };
 		D6A2640D1F4071F9002B0B79 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyClient.swift; sourceTree = "<group>"; };
 		D6A264231F41E048002B0B79 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
@@ -575,6 +595,10 @@
 			children = (
 				D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */,
 				D6A264231F41E048002B0B79 /* Forecast.swift */,
+				D6619B301F459F63002CC06E /* ForecastDataBlock.swift */,
+				D6619B131F459B30002CC06E /* ForecastDataPoint.swift */,
+				D6619B261F459BB3002CC06E /* ForecastAlert.swift */,
+				D6619B2B1F459BE2002CC06E /* ForecastFlag.swift */,
 			);
 			name = DarkSkyClient;
 			sourceTree = "<group>";
@@ -1015,12 +1039,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6619B2C1F459BE2002CC06E /* ForecastFlag.swift in Sources */,
 				D6FC91201F371A6A005D4F6C /* Response.swift in Sources */,
 				D6A2640E1F4071F9002B0B79 /* Result.swift in Sources */,
 				D6A264241F41E048002B0B79 /* Forecast.swift in Sources */,
 				D6FC910E1F371A4D005D4F6C /* Request.swift in Sources */,
 				D65C5A111F37851400D028B8 /* APIClient.swift in Sources */,
+				D6619B311F459F63002CC06E /* ForecastDataBlock.swift in Sources */,
 				D6A2641F1F41D616002B0B79 /* DarkSkyClient.swift in Sources */,
+				D6619B271F459BB3002CC06E /* ForecastAlert.swift in Sources */,
+				D6619B141F459B30002CC06E /* ForecastDataPoint.swift in Sources */,
 				D64E62761F39F0AF007E7B14 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1029,12 +1057,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6619B2F1F459BE2002CC06E /* ForecastFlag.swift in Sources */,
 				D6A264221F41D61B002B0B79 /* DarkSkyClient.swift in Sources */,
 				D6FC91231F371A6A005D4F6C /* Response.swift in Sources */,
 				D6FC91111F371A4D005D4F6C /* Request.swift in Sources */,
 				D65C5A141F37851400D028B8 /* APIClient.swift in Sources */,
 				D6A2643A1F41FD6F002B0B79 /* Result.swift in Sources */,
+				D6619B341F459F63002CC06E /* ForecastDataBlock.swift in Sources */,
 				D6A264271F41E048002B0B79 /* Forecast.swift in Sources */,
+				D6619B2A1F459BB3002CC06E /* ForecastAlert.swift in Sources */,
+				D6619B251F459B42002CC06E /* ForecastDataPoint.swift in Sources */,
 				D6812B431F3C5883007DEB07 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1043,12 +1075,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6619B2D1F459BE2002CC06E /* ForecastFlag.swift in Sources */,
 				D6A264201F41D619002B0B79 /* DarkSkyClient.swift in Sources */,
 				D6FC91211F371A6A005D4F6C /* Response.swift in Sources */,
 				D6FC910F1F371A4D005D4F6C /* Request.swift in Sources */,
 				D65C5A121F37851400D028B8 /* APIClient.swift in Sources */,
 				D6A2642A1F41FD6E002B0B79 /* Result.swift in Sources */,
+				D6619B321F459F63002CC06E /* ForecastDataBlock.swift in Sources */,
 				D6A264251F41E048002B0B79 /* Forecast.swift in Sources */,
+				D6619B281F459BB3002CC06E /* ForecastAlert.swift in Sources */,
+				D6619B231F459B41002CC06E /* ForecastDataPoint.swift in Sources */,
 				D6812B331F3C5882007DEB07 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1057,12 +1093,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6619B2E1F459BE2002CC06E /* ForecastFlag.swift in Sources */,
 				D6A264211F41D61A002B0B79 /* DarkSkyClient.swift in Sources */,
 				D6FC91221F371A6A005D4F6C /* Response.swift in Sources */,
 				D6FC91101F371A4D005D4F6C /* Request.swift in Sources */,
 				D65C5A131F37851400D028B8 /* APIClient.swift in Sources */,
 				D6A264391F41FD6E002B0B79 /* Result.swift in Sources */,
+				D6619B331F459F63002CC06E /* ForecastDataBlock.swift in Sources */,
 				D6A264261F41E048002B0B79 /* Forecast.swift in Sources */,
+				D6619B291F459BB3002CC06E /* ForecastAlert.swift in Sources */,
+				D6619B241F459B41002CC06E /* ForecastDataPoint.swift in Sources */,
 				D6812B421F3C5883007DEB07 /* APIClient+Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
