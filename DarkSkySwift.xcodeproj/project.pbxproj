@@ -59,6 +59,9 @@
 		D6A2642A1F41FD6E002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
 		D6A264391F41FD6E002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
 		D6A2643A1F41FD6F002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
+		D6F13B081F47346E00DAA08D /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F13B071F47346E00DAA08D /* RequestTests.swift */; };
+		D6F13B091F47346E00DAA08D /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F13B071F47346E00DAA08D /* RequestTests.swift */; };
+		D6F13B0A1F47346E00DAA08D /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F13B071F47346E00DAA08D /* RequestTests.swift */; };
 		D6FC910E1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
 		D6FC910F1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
 		D6FC91101F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
@@ -311,6 +314,7 @@
 		D6A2640D1F4071F9002B0B79 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyClient.swift; sourceTree = "<group>"; };
 		D6A264231F41E048002B0B79 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		D6F13B071F47346E00DAA08D /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
 		D6FC910D1F371A4D005D4F6C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		D6FC911F1F371A6A005D4F6C /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -415,6 +419,7 @@
 		3549BB191DA3890B00C63030 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D6F13B071F47346E00DAA08D /* RequestTests.swift */,
 				3549BB8A1DA38C0A00C63030 /* DarkSkySwiftSpec.swift */,
 				3549BB5B1DA38A8C00C63030 /* Supporting Files */,
 			);
@@ -649,6 +654,7 @@
 				3549BB1D1DA389CD00C63030 /* Frameworks */,
 				3549BB1E1DA389CD00C63030 /* Headers */,
 				3549BB1F1DA389CD00C63030 /* Resources */,
+				D6F13AE81F46B72200DAA08D /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -667,6 +673,7 @@
 				3549BB2A1DA389DB00C63030 /* Frameworks */,
 				3549BB2B1DA389DB00C63030 /* Headers */,
 				3549BB2C1DA389DB00C63030 /* Resources */,
+				D66728661F4737B200ED1807 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -685,6 +692,7 @@
 				3549BB371DA389E800C63030 /* Frameworks */,
 				3549BB381DA389E800C63030 /* Headers */,
 				3549BB391DA389E800C63030 /* Resources */,
+				D66728641F47379400ED1807 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -703,6 +711,7 @@
 				3549BB441DA389F300C63030 /* Frameworks */,
 				3549BB451DA389F300C63030 /* Headers */,
 				3549BB461DA389F300C63030 /* Resources */,
+				D66728651F4737A000ED1807 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1034,6 +1043,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D66728641F47379400ED1807 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		D66728651F4737A000ED1807 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		D66728661F4737B200ED1807 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+		D6F13AE81F46B72200DAA08D /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3549BB1C1DA389CD00C63030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -1112,6 +1177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3549BB8B1DA38C0A00C63030 /* DarkSkySwiftSpec.swift in Sources */,
+				D6F13B081F47346E00DAA08D /* RequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1120,6 +1186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3549BB8D1DA38C0A00C63030 /* DarkSkySwiftSpec.swift in Sources */,
+				D6F13B0A1F47346E00DAA08D /* RequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1128,6 +1195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3549BB8C1DA38C0A00C63030 /* DarkSkySwiftSpec.swift in Sources */,
+				D6F13B091F47346E00DAA08D /* RequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
