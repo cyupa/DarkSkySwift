@@ -8,7 +8,6 @@
 
 import Foundation
 
-
 /// HTTP Status code types.
 /// Read more about it here: http://www.restapitutorial.com/httpstatuscodes.html
 public enum StatusCodeType {
@@ -43,7 +42,6 @@ public extension Int {
     }
 }
 
-
 /// Base response class.
 public class Response {
     public let URLResponse: HTTPURLResponse
@@ -75,7 +73,6 @@ public class FailureResponse: Response {
 public class JSONResponse: Response {
     public let jsonData: Data?
 
-
     /// Returns a JSON Dictionary from a `Response` object.
     var jsonDictionary: [String: Any]? {
         return json(data: jsonData, type: [String: Any].self)
@@ -87,7 +84,7 @@ public class JSONResponse: Response {
     }
 
     private func json<T>(data: Data?, type: T.Type) -> T? {
-        var object : T?
+        var object: T?
 
         if let dataObject = data {
             let json = try? JSONSerialization.jsonObject(with: dataObject, options: [])
@@ -110,7 +107,7 @@ public class SuccessJSONResponse: JSONResponse { }
 /// A failure JSON reponse class.
 public class FailureJSONResponse: JSONResponse {
     public let error: NSError
-    
+
     init(jsonObject: Data?, response: HTTPURLResponse, error: NSError) {
         self.error = error
         super.init(jsonObject: jsonObject, response: response)

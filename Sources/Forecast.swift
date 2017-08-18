@@ -10,14 +10,15 @@ import Foundation
 
 /// Class that describes the Forecast response from DarkSky API
 public struct Forecast: Codable {
-    
+
     /// The requested latitude.
     let latitude: Double
-    
+
     /// The requested longitude.
     let longitude: Double
 
-    /// The IANA timezone name for the requested location. This is used for text summaries and for determining when `hourly` and `daily` data block objects begin.
+    /// The IANA timezone name for the requested location. This is used for text summaries and for
+    /// determining when `hourly` and `daily` data block objects begin.
     /// E.g. `America/New_York`
     let timezoneString: String
 
@@ -33,7 +34,8 @@ public struct Forecast: Codable {
     /// A `ForecastDataBlock` object containing the weather conditions day-by-day for the next week.
     let daily: ForecastDataBlock?
 
-    /// An `ForecastAlert` objects array, which, if present, contains any severe weather alerts pertinent to the requested location.
+    /// An `ForecastAlert` objects array, which, if present, contains any severe weather alerts
+    /// pertinent to the requested location.
     let alerts: [ForecastAlert]?
 
     /// A `ForecastFlag` object containing miscellaneous metadata about the request.
@@ -52,4 +54,3 @@ public struct Forecast: Codable {
         case timezoneString = "timezone"
     }
 }
-

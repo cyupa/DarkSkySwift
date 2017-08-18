@@ -1,0 +1,35 @@
+disabled_rules:
+opt_in_rules:
+included:
+  - Sources
+  - Tests
+excluded:
+  - Carthage
+  - Pods
+  - Scripts
+
+force_cast: warning # implicitly
+
+line_length:
+  warning: 130
+  ignores_function_declarations: true
+  ignores_comments: true
+  ignores_urls: true
+
+type_body_length:
+  warning: 300
+  error: 400
+
+file_length:
+  warning: 500
+  error: 1200
+
+type_name:
+  min_length: 4 # only warning
+  max_length: # warning and error
+    warning: 40
+    error: 50
+
+identifier_name:
+  min_length: # only min_length
+    error: 4 # only error
