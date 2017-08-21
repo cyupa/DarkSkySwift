@@ -10,7 +10,6 @@ import XCTest
 import DarkSkySwift
 import OHHTTPStubs
 
-
 class ApiClientTests: XCTestCase {
     private let baseURL = "https://api.darksky.net"
     private let token = "token"
@@ -40,7 +39,7 @@ class ApiClientTests: XCTestCase {
                                        headers: self.responseHeaders)
         }
     }
-    
+
     override func tearDown() {
         super.tearDown()
         OHHTTPStubs.removeAllStubs()
