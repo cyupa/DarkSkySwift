@@ -23,9 +23,6 @@
 		35CA2AC91E12927100147290 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2AAB1E12920400147290 /* Quick.framework */; };
 		35CA2AD21E12928C00147290 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2A9B1E12920400147290 /* Nimble.framework */; };
 		35CA2AD31E12928C00147290 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2ABB1E12920400147290 /* Quick.framework */; };
-		D60346461F4872C200FE4202 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60346371F4872C200FE4202 /* OHHTTPStubs.framework */; };
-		D60346481F4872CF00FE4202 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60346471F4872CF00FE4202 /* OHHTTPStubs.framework */; };
-		D603464A1F4872E800FE4202 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60346491F4872E800FE4202 /* OHHTTPStubs.framework */; };
 		D60346501F4ABA0F00FE4202 /* darkskyresponse_si.json in Resources */ = {isa = PBXBuildFile; fileRef = D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */; };
 		D60346511F4ABA0F00FE4202 /* darkskyresponse_si.json in Resources */ = {isa = PBXBuildFile; fileRef = D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */; };
 		D60346521F4ABA1000FE4202 /* darkskyresponse_si.json in Resources */ = {isa = PBXBuildFile; fileRef = D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */; };
@@ -74,6 +71,9 @@
 		D6C95C041F4ADB04009E2832 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95C031F4ADB04009E2832 /* RequestTests.swift */; };
 		D6C95C051F4ADB04009E2832 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95C031F4ADB04009E2832 /* RequestTests.swift */; };
 		D6C95C061F4ADB04009E2832 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95C031F4ADB04009E2832 /* RequestTests.swift */; };
+		D6C95C3E1F4B6EB5009E2832 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C95C2D1F4B6E93009E2832 /* OHHTTPStubs.framework */; };
+		D6C95C3F1F4B6EC0009E2832 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C95C291F4B6E93009E2832 /* OHHTTPStubs.framework */; };
+		D6C95C401F4B6EC7009E2832 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C95C311F4B6E93009E2832 /* OHHTTPStubs.framework */; };
 		D6FC910E1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
 		D6FC910F1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
 		D6FC91101F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
@@ -274,6 +274,62 @@
 			remoteGlobalIDString = 1F5DF1541BDCA0CE00C3A531;
 			remoteInfo = "Nimble-tvOS";
 		};
+		D6C95C241F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09110A4119805F4800D175E4;
+			remoteInfo = "OHHTTPStubs iOS StaticLib";
+		};
+		D6C95C261F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 09110A5119805F4800D175E4;
+			remoteInfo = "OHHTTPStubs iOS Lib Tests";
+		};
+		D6C95C281F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 725CD99B1A9EB65100F84C8B;
+			remoteInfo = "OHHTTPStubs iOS Framework";
+		};
+		D6C95C2A1F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 093442F91B80EC4A00A91535;
+			remoteInfo = "OHHTTPStubs iOS Fmk Tests";
+		};
+		D6C95C2C1F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 095981C219806A7900807DBE;
+			remoteInfo = "OHHTTPStubs Mac Framework";
+		};
+		D6C95C2E1F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 095981D219806A7900807DBE;
+			remoteInfo = "OHHTTPStubs Mac Tests";
+		};
+		D6C95C301F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAA436A51BE1598D000E9E99;
+			remoteInfo = "OHHTTPStubs tvOS Framework";
+		};
+		D6C95C321F4B6E93009E2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA100AB71BE15BE400129352;
+			remoteInfo = "OHHTTPStubs tvOS Fmk Tests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -317,9 +373,6 @@
 		35CD65161E60192300AF060B /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
 		35CD65171E60192300AF060B /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		35CD65181E60192300AF060B /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		D60346371F4872C200FE4202 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug/OHHTTPStubs.framework; sourceTree = "<group>"; };
-		D60346471F4872CF00FE4202 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos/OHHTTPStubs.framework"; sourceTree = "<group>"; };
-		D60346491F4872E800FE4202 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-appletvos/OHHTTPStubs.framework"; sourceTree = "<group>"; };
 		D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = darkskyresponse_si.json; sourceTree = "<group>"; };
 		D60346531F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkySwiftForecastRequestTests.swift; sourceTree = "<group>"; };
 		D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Requests.swift"; sourceTree = "<group>"; };
@@ -333,6 +386,7 @@
 		D6A264231F41E048002B0B79 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		D6C95BF11F4ACE6D009E2832 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
 		D6C95C031F4ADB04009E2832 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OHHTTPStubs.xcodeproj; path = Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/OHHTTPStubs.xcodeproj; sourceTree = "<group>"; };
 		D6FC910D1F371A4D005D4F6C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		D6FC911F1F371A6A005D4F6C /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -370,9 +424,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C95C3E1F4B6EB5009E2832 /* OHHTTPStubs.framework in Frameworks */,
 				35CA2AC61E12925700147290 /* Nimble.framework in Frameworks */,
 				35CA2AC71E12925700147290 /* Quick.framework in Frameworks */,
-				D60346461F4872C200FE4202 /* OHHTTPStubs.framework in Frameworks */,
 				3549BB661DA38ADB00C63030 /* DarkSkySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,9 +435,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C95C401F4B6EC7009E2832 /* OHHTTPStubs.framework in Frameworks */,
 				35CA2AD21E12928C00147290 /* Nimble.framework in Frameworks */,
 				35CA2AD31E12928C00147290 /* Quick.framework in Frameworks */,
-				D603464A1F4872E800FE4202 /* OHHTTPStubs.framework in Frameworks */,
 				3549BB751DA38AEF00C63030 /* DarkSkySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,8 +447,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35CA2AC81E12927100147290 /* Nimble.framework in Frameworks */,
+				D6C95C3F1F4B6EC0009E2832 /* OHHTTPStubs.framework in Frameworks */,
 				35CA2AC91E12927100147290 /* Quick.framework in Frameworks */,
-				D60346481F4872CF00FE4202 /* OHHTTPStubs.framework in Frameworks */,
 				3549BB841DA38B0000C63030 /* DarkSkySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,9 +538,7 @@
 		357D954B1DA3F2B400AEC55F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D60346371F4872C200FE4202 /* OHHTTPStubs.framework */,
-				D60346471F4872CF00FE4202 /* OHHTTPStubs.framework */,
-				D60346491F4872E800FE4202 /* OHHTTPStubs.framework */,
+				D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */,
 				35CA2A861E12920400147290 /* Quick.xcodeproj */,
 				35CA2A891E12920400147290 /* Nimble.xcodeproj */,
 			);
@@ -633,6 +685,21 @@
 				D6619B2B1F459BE2002CC06E /* ForecastFlag.swift */,
 			);
 			name = DarkSkyClient;
+			sourceTree = "<group>";
+		};
+		D6C95C161F4B6E93009E2832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6C95C251F4B6E93009E2832 /* libOHHTTPStubs.a */,
+				D6C95C271F4B6E93009E2832 /* OHHTTPStubs iOS Lib Tests.xctest */,
+				D6C95C291F4B6E93009E2832 /* OHHTTPStubs.framework */,
+				D6C95C2B1F4B6E93009E2832 /* OHHTTPStubs iOS Fmk Tests.xctest */,
+				D6C95C2D1F4B6E93009E2832 /* OHHTTPStubs.framework */,
+				D6C95C2F1F4B6E93009E2832 /* OHHTTPStubs Mac Tests.xctest */,
+				D6C95C311F4B6E93009E2832 /* OHHTTPStubs.framework */,
+				D6C95C331F4B6E93009E2832 /* OHHTTPStubs tvOS Fmk Tests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -868,6 +935,10 @@
 					ProjectRef = 35CA2A891E12920400147290 /* Nimble.xcodeproj */;
 				},
 				{
+					ProductGroup = D6C95C161F4B6E93009E2832 /* Products */;
+					ProjectRef = D6C95C151F4B6E93009E2832 /* OHHTTPStubs.xcodeproj */;
+				},
+				{
 					ProductGroup = 35CA2A871E12920400147290 /* Products */;
 					ProjectRef = 35CA2A861E12920400147290 /* Quick.xcodeproj */;
 				},
@@ -1010,6 +1081,62 @@
 			fileType = wrapper.cfbundle;
 			path = "QuickAfterSuite - tvOSTests.xctest";
 			remoteRef = 35CA2AC01E12920400147290 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C251F4B6E93009E2832 /* libOHHTTPStubs.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOHHTTPStubs.a;
+			remoteRef = D6C95C241F4B6E93009E2832 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C271F4B6E93009E2832 /* OHHTTPStubs iOS Lib Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OHHTTPStubs iOS Lib Tests.xctest";
+			remoteRef = D6C95C261F4B6E93009E2832 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C291F4B6E93009E2832 /* OHHTTPStubs.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OHHTTPStubs.framework;
+			remoteRef = D6C95C281F4B6E93009E2832 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C2B1F4B6E93009E2832 /* OHHTTPStubs iOS Fmk Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OHHTTPStubs iOS Fmk Tests.xctest";
+			remoteRef = D6C95C2A1F4B6E93009E2832 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C2D1F4B6E93009E2832 /* OHHTTPStubs.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OHHTTPStubs.framework;
+			remoteRef = D6C95C2C1F4B6E93009E2832 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C2F1F4B6E93009E2832 /* OHHTTPStubs Mac Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OHHTTPStubs Mac Tests.xctest";
+			remoteRef = D6C95C2E1F4B6E93009E2832 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C311F4B6E93009E2832 /* OHHTTPStubs.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = OHHTTPStubs.framework;
+			remoteRef = D6C95C301F4B6E93009E2832 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6C95C331F4B6E93009E2832 /* OHHTTPStubs tvOS Fmk Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OHHTTPStubs tvOS Fmk Tests.xctest";
+			remoteRef = D6C95C321F4B6E93009E2832 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
