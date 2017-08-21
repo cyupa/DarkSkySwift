@@ -23,6 +23,15 @@
 		35CA2AC91E12927100147290 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2AAB1E12920400147290 /* Quick.framework */; };
 		35CA2AD21E12928C00147290 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2A9B1E12920400147290 /* Nimble.framework */; };
 		35CA2AD31E12928C00147290 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CA2ABB1E12920400147290 /* Quick.framework */; };
+		D60346461F4872C200FE4202 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60346371F4872C200FE4202 /* OHHTTPStubs.framework */; };
+		D60346481F4872CF00FE4202 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60346471F4872CF00FE4202 /* OHHTTPStubs.framework */; };
+		D603464A1F4872E800FE4202 /* OHHTTPStubs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D60346491F4872E800FE4202 /* OHHTTPStubs.framework */; };
+		D60346501F4ABA0F00FE4202 /* darkskyresponse_si.json in Resources */ = {isa = PBXBuildFile; fileRef = D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */; };
+		D60346511F4ABA0F00FE4202 /* darkskyresponse_si.json in Resources */ = {isa = PBXBuildFile; fileRef = D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */; };
+		D60346521F4ABA1000FE4202 /* darkskyresponse_si.json in Resources */ = {isa = PBXBuildFile; fileRef = D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */; };
+		D60346541F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60346531F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift */; };
+		D60346551F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60346531F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift */; };
+		D60346561F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60346531F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift */; };
 		D64E62761F39F0AF007E7B14 /* APIClient+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */; };
 		D65C5A111F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
 		D65C5A121F37851400D028B8 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C5A101F37851400D028B8 /* APIClient.swift */; };
@@ -59,9 +68,12 @@
 		D6A2642A1F41FD6E002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
 		D6A264391F41FD6E002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
 		D6A2643A1F41FD6F002B0B79 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A2640D1F4071F9002B0B79 /* Result.swift */; };
-		D6F13B081F47346E00DAA08D /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F13B071F47346E00DAA08D /* RequestTests.swift */; };
-		D6F13B091F47346E00DAA08D /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F13B071F47346E00DAA08D /* RequestTests.swift */; };
-		D6F13B0A1F47346E00DAA08D /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F13B071F47346E00DAA08D /* RequestTests.swift */; };
+		D6C95BF21F4ACE6D009E2832 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95BF11F4ACE6D009E2832 /* ApiClientTests.swift */; };
+		D6C95BF31F4ACE6D009E2832 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95BF11F4ACE6D009E2832 /* ApiClientTests.swift */; };
+		D6C95BF41F4ACE6D009E2832 /* ApiClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95BF11F4ACE6D009E2832 /* ApiClientTests.swift */; };
+		D6C95C041F4ADB04009E2832 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95C031F4ADB04009E2832 /* RequestTests.swift */; };
+		D6C95C051F4ADB04009E2832 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95C031F4ADB04009E2832 /* RequestTests.swift */; };
+		D6C95C061F4ADB04009E2832 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C95C031F4ADB04009E2832 /* RequestTests.swift */; };
 		D6FC910E1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
 		D6FC910F1F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
 		D6FC91101F371A4D005D4F6C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6FC910D1F371A4D005D4F6C /* Request.swift */; };
@@ -305,6 +317,11 @@
 		35CD65161E60192300AF060B /* watchOS-Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Base.xcconfig"; sourceTree = "<group>"; };
 		35CD65171E60192300AF060B /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
 		35CD65181E60192300AF060B /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		D60346371F4872C200FE4202 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug/OHHTTPStubs.framework; sourceTree = "<group>"; };
+		D60346471F4872CF00FE4202 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos/OHHTTPStubs.framework"; sourceTree = "<group>"; };
+		D60346491F4872E800FE4202 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = "Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-appletvos/OHHTTPStubs.framework"; sourceTree = "<group>"; };
+		D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = darkskyresponse_si.json; sourceTree = "<group>"; };
+		D60346531F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkySwiftForecastRequestTests.swift; sourceTree = "<group>"; };
 		D64E62751F39F0AF007E7B14 /* APIClient+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIClient+Requests.swift"; sourceTree = "<group>"; };
 		D65C5A101F37851400D028B8 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		D6619B131F459B30002CC06E /* ForecastDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDataPoint.swift; sourceTree = "<group>"; };
@@ -314,7 +331,8 @@
 		D6A2640D1F4071F9002B0B79 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		D6A2641E1F41D616002B0B79 /* DarkSkyClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyClient.swift; sourceTree = "<group>"; };
 		D6A264231F41E048002B0B79 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
-		D6F13B071F47346E00DAA08D /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		D6C95BF11F4ACE6D009E2832 /* ApiClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClientTests.swift; sourceTree = "<group>"; };
+		D6C95C031F4ADB04009E2832 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
 		D6FC910D1F371A4D005D4F6C /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		D6FC911F1F371A6A005D4F6C /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -354,6 +372,7 @@
 			files = (
 				35CA2AC61E12925700147290 /* Nimble.framework in Frameworks */,
 				35CA2AC71E12925700147290 /* Quick.framework in Frameworks */,
+				D60346461F4872C200FE4202 /* OHHTTPStubs.framework in Frameworks */,
 				3549BB661DA38ADB00C63030 /* DarkSkySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +383,7 @@
 			files = (
 				35CA2AD21E12928C00147290 /* Nimble.framework in Frameworks */,
 				35CA2AD31E12928C00147290 /* Quick.framework in Frameworks */,
+				D603464A1F4872E800FE4202 /* OHHTTPStubs.framework in Frameworks */,
 				3549BB751DA38AEF00C63030 /* DarkSkySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +394,7 @@
 			files = (
 				35CA2AC81E12927100147290 /* Nimble.framework in Frameworks */,
 				35CA2AC91E12927100147290 /* Quick.framework in Frameworks */,
+				D60346481F4872CF00FE4202 /* OHHTTPStubs.framework in Frameworks */,
 				3549BB841DA38B0000C63030 /* DarkSkySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +440,9 @@
 		3549BB191DA3890B00C63030 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				D6F13B071F47346E00DAA08D /* RequestTests.swift */,
+				D6C95BF11F4ACE6D009E2832 /* ApiClientTests.swift */,
+				D6C95C031F4ADB04009E2832 /* RequestTests.swift */,
+				D60346531F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift */,
 				3549BB8A1DA38C0A00C63030 /* DarkSkySwiftSpec.swift */,
 				3549BB5B1DA38A8C00C63030 /* Supporting Files */,
 			);
@@ -439,6 +462,7 @@
 		3549BB5B1DA38A8C00C63030 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D603464B1F4AB99300FE4202 /* darkskyresponse_si.json */,
 				3549BB581DA38A8800C63030 /* Info.plist */,
 				3549BB571DA38A8800C63030 /* Info-tvOS.plist */,
 			);
@@ -460,6 +484,9 @@
 		357D954B1DA3F2B400AEC55F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D60346371F4872C200FE4202 /* OHHTTPStubs.framework */,
+				D60346471F4872CF00FE4202 /* OHHTTPStubs.framework */,
+				D60346491F4872E800FE4202 /* OHHTTPStubs.framework */,
 				35CA2A861E12920400147290 /* Quick.xcodeproj */,
 				35CA2A891E12920400147290 /* Nimble.xcodeproj */,
 			);
@@ -1020,6 +1047,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60346501F4ABA0F00FE4202 /* darkskyresponse_si.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1027,6 +1055,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60346521F4ABA1000FE4202 /* darkskyresponse_si.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,6 +1063,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60346511F4ABA0F00FE4202 /* darkskyresponse_si.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1116,8 +1146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C95BF21F4ACE6D009E2832 /* ApiClientTests.swift in Sources */,
+				D6C95C041F4ADB04009E2832 /* RequestTests.swift in Sources */,
+				D60346541F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift in Sources */,
 				3549BB8B1DA38C0A00C63030 /* DarkSkySwiftSpec.swift in Sources */,
-				D6F13B081F47346E00DAA08D /* RequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1125,8 +1157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C95BF41F4ACE6D009E2832 /* ApiClientTests.swift in Sources */,
+				D6C95C061F4ADB04009E2832 /* RequestTests.swift in Sources */,
+				D60346561F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift in Sources */,
 				3549BB8D1DA38C0A00C63030 /* DarkSkySwiftSpec.swift in Sources */,
-				D6F13B0A1F47346E00DAA08D /* RequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1134,8 +1168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6C95BF31F4ACE6D009E2832 /* ApiClientTests.swift in Sources */,
+				D6C95C051F4ADB04009E2832 /* RequestTests.swift in Sources */,
+				D60346551F4ACC3700FE4202 /* DarkSkySwiftForecastRequestTests.swift in Sources */,
 				3549BB8C1DA38C0A00C63030 /* DarkSkySwiftSpec.swift in Sources */,
-				D6F13B091F47346E00DAA08D /* RequestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1502,6 +1538,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1522,6 +1559,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1541,6 +1579,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-appletvos",
 				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1562,6 +1601,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-appletvos",
 				);
 				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1584,6 +1624,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
@@ -1607,6 +1648,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/Mac",
+					"$(PROJECT_DIR)/Carthage/Checkouts/OHHTTPStubs/OHHTTPStubs/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";

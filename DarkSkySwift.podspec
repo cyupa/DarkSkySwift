@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  s.version = '0.0.1'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'DarkSky API Swift Framework'
- s.homepage = 'https://www.applicodo.com'
+ s.homepage = 'https://github.com/cyupa/DarkSkySwift'
  s.social_media_url = 'https://twitter.com/cyupa89'
  s.authors = { "Ciprian Redinciuc" => "ciprian@applicodo.com" }
  s.source = { :git => "https://github.com/cyupa/DarkSkySwift.git", :tag => "v"+s.version.to_s }
