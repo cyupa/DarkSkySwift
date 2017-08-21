@@ -118,14 +118,14 @@ open class Request {
     ///   - authorizationHeaderKey: The HTTP authorization header key.
     ///   - completion: The completion block that will be called after the request executes.
     public init(method: HTTPMethod,
-         path: String,
-         parameters: Any? = nil,
-         parametersType: ParametersType? = nil,
-         responseType: ResponseType? = nil,
-         token: String? = nil,
-         authorizationHeaderValue: String? = nil,
-         authorizationHeaderKey: String? = nil,
-         completion: RequestCompletion?) {
+                path: String,
+                parameters: Any? = nil,
+                parametersType: ParametersType? = nil,
+                responseType: ResponseType? = nil,
+                token: String? = nil,
+                authorizationHeaderValue: String? = nil,
+                authorizationHeaderKey: String? = nil,
+                completion: RequestCompletion?) {
         self.method = method
         self.path = path
         self.parameters = parameters
