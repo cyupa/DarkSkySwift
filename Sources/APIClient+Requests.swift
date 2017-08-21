@@ -147,8 +147,8 @@ public extension APIClient {
                 if let unauthCallback = self?.unauthorizedRequestCallback, isUnauthorized {
                     unauthCallback()
                 } else {
-                    if let response = urlResponse as? HTTPURLResponse {
-                        request.completion(responseData, response, connectionError as NSError?)
+                    if let response = urlResponse as? HTTPURLResponse, let completion = request.completion {
+                        completion(responseData, response, connectionError as NSError?)
                     } else if let baseURL = self?.baseURL {
                         let url = try? request.url(relativeTo: baseURL)
                         let errorCode = (connectionError as NSError?)?.code ?? 200
@@ -156,8 +156,8 @@ public extension APIClient {
                             // swiftlint:disable line_length
                             let response = HTTPURLResponse(url: url, statusCode: errorCode, httpVersion: nil, headerFields: nil)
                             // swiftlint:enable line_length
-                            if let urlResponse = response {
-                                request.completion(responseData, urlResponse, connectionError as NSError?)
+                            if let urlResponse = response, let completion = request.completion {
+                                completion(responseData, urlResponse, connectionError as NSError?)
                             } else {
                                 fatalError("Cannot create URL Reponse")
                             }

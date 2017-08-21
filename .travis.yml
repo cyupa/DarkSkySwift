@@ -45,9 +45,9 @@ script:
     GCC_GENERATE_TEST_COVERAGE_FILES=YES
     test | xcpretty -f `xcpretty-travis-formatter`
 
-# before_deploy:
-#   - carthage build --no-skip-current
-#   - carthage archive $FRAMEWORK_NAME
+before_deploy:
+  - carthage build --no-skip-current
+  - carthage archive $FRAMEWORK_NAME
 
 after_success:
     - slather

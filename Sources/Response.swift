@@ -73,28 +73,6 @@ public class FailureResponse: Response {
 public class JSONResponse: Response {
     public let jsonData: Data?
 
-    /// Returns a JSON Dictionary from a `Response` object.
-    var jsonDictionary: [String: Any]? {
-        return json(data: jsonData, type: [String: Any].self)
-    }
-
-    /// Returns a JSON Array from a `Response` object.
-    var jsonArray: [[String: Any]]? {
-        return json(data: jsonData, type: [[String: Any]].self)
-    }
-
-    private func json<T>(data: Data?, type: T.Type) -> T? {
-        var object: T?
-
-        if let dataObject = data {
-            let json = try? JSONSerialization.jsonObject(with: dataObject, options: [])
-            if let jsonObject = json as? T {
-                object = jsonObject
-            }
-        }
-        return object
-    }
-
     init(jsonObject: Data?, response: HTTPURLResponse) {
         self.jsonData = jsonObject
         super.init(response: response)
