@@ -81,7 +81,7 @@ public enum ResponseType {
     }
 }
 
-typealias RequestCompletion = (Any?, HTTPURLResponse, NSError?) -> Void
+public typealias RequestCompletion = (Any?, HTTPURLResponse, NSError?) -> Void
 
 /// Class that describes a request object.
 open class Request {
@@ -101,7 +101,7 @@ open class Request {
     var token: String?
     var authorizationHeaderValue: String?
     var authorizationHeaderKey: String?
-    var completion: (_ response: Any?, _ httpResponse: HTTPURLResponse, _ error: NSError?) -> Void
+    var completion: RequestCompletion?
 
     /// Designated initializer that contains all the required data to compose a URLRequest.
     ///
@@ -117,7 +117,7 @@ open class Request {
     /// Use this or the token, not both.
     ///   - authorizationHeaderKey: The HTTP authorization header key.
     ///   - completion: The completion block that will be called after the request executes.
-    init(method: HTTPMethod,
+    public init(method: HTTPMethod,
          path: String,
          parameters: Any? = nil,
          parametersType: ParametersType? = nil,
@@ -125,7 +125,7 @@ open class Request {
          token: String? = nil,
          authorizationHeaderValue: String? = nil,
          authorizationHeaderKey: String? = nil,
-         completion: @escaping RequestCompletion) {
+         completion: RequestCompletion?) {
         self.method = method
         self.path = path
         self.parameters = parameters
@@ -141,7 +141,7 @@ open class Request {
     ///
     /// - Parameter baseURL: The base URL against which the full URL will be composed
     /// - Returns: A URL Request if succesful. Nil if not.
-    func urlRequest(relativeTo baseURL: String) -> URLRequest? {
+    public func urlRequest(relativeTo baseURL: String) -> URLRequest? {
         var requestObject: URLRequest?
         var serializationError: NSError?
 
@@ -191,7 +191,7 @@ open class Request {
             let urlObject = try? url(relativeTo: baseURL)
             if let url = urlObject {
                 let response = HTTPURLResponse(url: url, statusCode: error.code, httpVersion: nil, headerFields: nil)
-                if let urlResponse = response {
+                if let urlResponse = response, let completion = completion {
                     completion(nil, urlResponse, error)
                 } else {
                     fatalError("Cannot create URL Reponse")
