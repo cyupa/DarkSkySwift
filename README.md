@@ -19,7 +19,7 @@ The DarkSky API is build on top of a more generic networking API that I intend t
 - Custom HTTP body data
 - Caching
 
-## Contents
+## Content
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)

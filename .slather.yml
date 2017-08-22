@@ -1,7 +1,8 @@
 coverage_service: cobertura_xml
 xcodeproj: DarkSkySwift.xcodeproj
+workspace: DarkSkySwift.xcworkspace
 scheme: DarkSkySwift-iOS
-configuration: Release
+configuration: Debug
 source_directory: Sources
 output_directory: reports
 ignore:
