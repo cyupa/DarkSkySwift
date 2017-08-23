@@ -50,5 +50,6 @@ before_deploy:
   - carthage archive $FRAMEWORK_NAME
 
 after_success:
+    - cd $TRAVIS_BUILD_DIR
     - slather
     - bash <(curl -s https://codecov.io/bash) -f reports/cobertura.xml -X coveragepy -X gcov -X xcode
