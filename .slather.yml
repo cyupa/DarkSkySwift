@@ -5,6 +5,7 @@ scheme: DarkSkySwift-iOS
 configuration: Debug
 source_directory: Sources
 output_directory: reports
+binary_basename: DarkSkySwift
 ignore:
   - scripts/*
   - Tests/*
