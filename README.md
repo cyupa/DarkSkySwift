@@ -9,7 +9,7 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CocoaPods compatible](https://img.shields.io/cocoapods/v/DarkSkySwift.svg)](https://cocoapods.org/pods/DarkSkySwift)
 
-[![Travis](https://img.shields.io/travis/cyupa/DarkSkySwift/master.svg)](https://travis-ci.org/cyupa/DarkSkySwift/branches)
+[![Travis](https://img.shields.io/travis/cyupa/DarkSkySwift/master.svg)](https://travis-ci.org/cyupa/DarkSkySwift/branches)[![codebeat badge](https://codebeat.co/badges/7bbe6bb2-c918-4daf-bb5b-a3611cec7105)](https://codebeat.co/projects/github-com-cyupa-darkskyswift-master)
 
 This is my first attempt at writing a Swift framework. I decided to go with the DarkSky API for this experiment and Swift 4's brand new Codable protocol.
 Please treat it as an experiment rather than an production-ready framework.
